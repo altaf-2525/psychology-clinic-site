@@ -1,0 +1,334 @@
+/*HEADER SECTION*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  background-color: blanchedalmond;
+  justify-content: space-between;
+  height: 100px;
+  /* position: fixed; */
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  margin: 15px 15px 15px 25px;
+  width: 75px;
+  height: 75px;
+}
+.logo h1 {
+  display: flex;
+  margin: 15px 15px 15px 10px;
+  color: rgb(46, 106, 95);
+  font-size: xxx-large;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav {
+  display: flex;
+  gap: 30px;
+  /* font-size: 125px; */
+  /* color: black; */
+  align-items: center;
+  text-align: center;
+  /* background-color: antiquewhite; */
+}
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(46, 106, 95);
+  font-size: x-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.register-btn {
+  border: 22px saddlebrown;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(5, 89, 74);
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+/*HERO SECTION*/
+.hero {
+  display: flex;
+  background-image: url(/assests/pawel-czerwinski-9Lw6YZjRmlk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  /* position: relative; */
+}
+.main-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  /* z-index: 2; */
+}
+.details-container {
+  padding: 0 50px 50px 50px;
+  width: 50%;
+  margin: 0 30px 30px 30px;
+  color: blanchedalmond;
+  font-size: xx-large;
+}
+.details-container h1 {
+  margin: 30px 30px 0 30px;
+  padding: 30px 350px 0 30px;
+  /* text-transform: uppercase; */
+}
+.colored-text {
+  color: rgb(5, 89, 74);
+  /* border: 5px solid wheat; */
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.973);
+  text-transform: uppercase;
+}
+p {
+  margin: 0px 30px;
+  padding: 30px;
+}
+form {
+  width: fit-content;
+  margin: 0 0 0 60px;
+  padding: 0px;
+  background-color: rgb(5, 89, 74);
+  /* border: 65px rgb(5, 89, 74); */
+}
+form input {
+  height: 50px;
+  width: 500px;
+  font-size: 20px;
+  padding-left: 15px;
+}
+form a {
+  margin: 0px;
+  padding: 15px;
+  background-color: rgb(5, 89, 74);
+  border-radius: 15px;
+  font-size: 20px;
+  color: blanchedalmond;
+  text-decoration: none;
+}
+/*IMAGE CONTAINER*/
+
+.image-container {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.image-container img {
+  object-fit: cover;
+  background-position: center;
+  border-radius: 100%;
+  position: relative;
+  background-color: red;
+  z-index: 2;
+  left: 30%;
+  width: 1000px;
+  height: 100vh;
+  border-radius: 100%;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 1px; /* Adjust this value to control how much of the circle is shown on the left */
+  width: 1300px; /* Set the size of the circle */
+  height: 1300px;
+  background-color: #fff; /* Set the background color of the circle */
+  border-radius: 100%;
+  z-index: 1;
+}
+
+/*Section 02*/
+.services-container {
+  /* display: flex; */
+  /* flex-direction: column; */
+  background-image: url(/assests/bg-sec2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  position: absolute;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.services-heading {
+  margin: 10px 10px 50px 10px;
+  padding: 10px 10px 50px 10px;
+  font-size: xx-large;
+  align-content: start;
+  /* position: relative; */
+}
+.services-details {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.career-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin: 0;
+  padding: 0;
+}
+.stress-image img {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin: 0;
+  padding: 0;
+}
+.anxiety-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin: 0;
+  padding: 0;
+}
+.stress-image {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.career-image {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+.anxiety-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 50vh; */
+}
+.stress-management {
+  align-items: center;
+  align-content: center;
+  margin: 40px 80px;
+  padding: 80px 20px;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgba(235, 243, 244, 0.2);
+  border-radius: 15px;
+}
+.career-counseling {
+  align-items: center;
+  align-content: center;
+  margin: 40px 80px;
+  padding: 80px 20px;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgba(235, 243, 244, 0.2);
+  border-radius: 15px;
+}
+.anxiety-disorder {
+  align-items: center;
+  align-content: center;
+  margin: 40px 80px;
+  padding: 80px 20px;
+  justify-content: center;
+  justify-items: center;
+  background-color: rgba(235, 243, 244, 0.2);
+  border-radius: 15px;
+}
+
+h2 {
+  font-size: xx-large;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+p {
+  font-size: large;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+/* Section 03 */
+.three {
+  width: 100%;
+  /* height: 100vh; */
+  margin: 0;
+  padding: 0;
+  background-image: url(/assests/bg-sec2.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  background-position: center;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+/* 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.sub-container{
+    max-width: 600px;
+    padding: 20px;
+    background-color: grey;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+} */
